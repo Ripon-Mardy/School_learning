@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root{
+    --btn-color:#21b573;
+    --para-color:#656464;
+    --heading-color: #413960;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+a
+{
+    text-decoration: none;
+}
+/* header section  */
+header
+{
+    box-shadow: 0 5px 5px rgb(0 0 0 / 10%);
+}
+.logo
+{
+    width: 166px;
+}
+.navbar-collapse ul 
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.navbar-collapse ul li
+{
+    padding: 0 24px;
+}
+.navbar-collapse ul li .singBtn
+{
+    color: white;
+    padding: 5px 16px;
+    border-radius: 10px;
+    background-color:var(--btn-color);
+    transition: .3s;
+}
+.navbar-collapse ul li .singBtn:hover
+{
+    color: white;
+    background: black;
+}
+.navbar-collapse ul li a
+{
+    color: black;
+    font-size: 19px;
+    font-weight: 500;
+}
+.navbar-collapse ul li a:hover
+{
+    color: #21b573;
+}
+
+/* banner section  */
+.banner-section
+{
+    padding: 80px 0;
+    background: #f0fff0;
+}
+.banner-text p:first-child
+{
+    color: red;
+}
+.banner-text h1
+{
+    font-size: 50px;
+    font-weight: 700;
+}
+.banner-text h1 b
+{
+    color: var(--btn-color);
+}
+.banner-text p
+{
+    color: var(--para-color);
+}
+.banner-img img
+{
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.defult-btn
+{
+    background: var(--btn-color);
+    display: inline-block;
+    padding: 14px 26px;
+    color: white;
+    border-radius: 15px;
+    font-size: 19px;
+    transition: .4s;
+    box-shadow: 0 5px 25px rgb(0 0 0 / 10%);
+}
+.defult-btn:hover
+{
+    background-color: black;
+    color: white;
+}
+
+/* student section  */
+.student-section
+{
+    background: #f0fff0;
+}
+.student-content
+{
+    padding: 15px;
+    background: #f1f1f1;
+    border-radius: 7px;
+    transition: .3s;
+}
+.student-content:hover
+{
+    box-shadow: 0 5px 25px rgb(0 0 0 / 10%);
+    background: white;
+}
+.student-content img
+{
+    width: 40px;
+    margin: auto;
+}
+.student-content h5
+{
+    margin-top: 15px;
+    font-weight: 600;
+}
+.student-content p
+{
+    color: var(--para-color);
+}
+
+/* online course  */
+.online-content h1
+{
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: var(--heading-color);
+}
+.online-content-text
+{
+    box-shadow: 0 5px 25px rgb(0 0 0 / 10%);
+    padding: 10px 5px;
+    border-radius: 9px;
+}
+.online-content-text img
+{
+    width: 331px;
+    height: 234px;
+}
+.onine-content-text-img
+{
+    text-align: center;
+}
+.online-contant-main-text
+{
+    margin-left: 20px;
+}
+.content-main-icon
+{
+    margin-left: 20px;
+}
+.online-contant-main-text a
+{
+    background: var(--btn-color);
+    display: inline-block;
+    padding: 5px 15px;
+    color: white;
+    border-radius: 11px;
+    transition: .3s;
+    margin-bottom: 10px;
+}
+.online-contant-main-text a:hover
+{
+    background-color: black;
+    color: white;
+}
+.online-contant-main-text p
+{
+    margin-bottom: 7px;
+}
+.content-main-icon
+{
+    display: flex;
+    justify-content: space-between;
+    color: var(--para-color);
+}
+
+/* testimonial section  */
+.testimonial-content-img img
+{
+    width: 120px;
+}
+.testimonial-content
+{
+    display: flex;
+    justify-content: space-between;
+}
+.tesimonial-content-text p
+{
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+/* footer section  */
+footer
+{
+    background: #282531;
+}
+.footer-left p
+{
+    color: white;
+}
+.footer-left-right h5
+{
+    color: white;
+}
+.footer-left-right ul
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.footer-left-right ul li
+{
+    padding: 5px 0;
+}
+.footer-left-right ul li a
+{
+    color:white;
+    transition: .3s;
+}
+.footer-left-right ul li a:hover
+{
+    color: #21b573;
+}
+.footer-bottom
+{
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 5px;
+}
